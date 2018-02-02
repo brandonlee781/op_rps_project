@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock - Paper - Scissors</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="round-results">
+    <div class="player-score">
+      <span>Player</span>
+      <span class="score-number">0</span>
+    </div>
+    <div class="computer-score">
+      <span>Computer</span>
+      <span class="score-number">0</span>
+    </div>
+
+    <div class="round-text"></div>
+  </div>
+  
+  <div class="choice-buttons">
+    <div class="field has-addons">
+      <p class="control">
+        <button class="button is-large rock-btn" data-choice="rock">
+          <span class="icon is-small">
+            <i class="far fa-hand-rock"></i>
+          </span>
+          <span>Rock</span>
+        </button>
+      </p>
+      <p class="control">
+        <button class="button is-large paper-btn" data-choice="paper">
+          <span class="icon is-small">
+            <i class="far fa-hand-paper"></i>
+          </span>
+          <span>Paper</span>
+        </button>
+      </p>
+      <p class="control">
+        <button class="button is-large scissors-btn" data-choice="scissors">
+          <span class="icon is-small">
+            <i class="far fa-hand-scissors"></i>
+          </span>
+          <span>Scissors</span>
+        </button>
+      </p>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
